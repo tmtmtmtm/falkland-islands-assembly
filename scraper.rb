@@ -1,5 +1,6 @@
 #!/bin/env ruby
 # encoding: utf-8
+# frozen_string_literal: true
 
 require 'nokogiri'
 require 'pry'
@@ -10,7 +11,7 @@ OpenURI::Cache.cache_path = '.cache'
 
 class String
   def tidy
-    self.gsub(/[[:space:]]+/, ' ').strip
+    gsub(/[[:space:]]+/, ' ').strip
   end
 end
 
@@ -23,14 +24,14 @@ def scrape_list(url)
   noko.css('div.tertiary_content a img').each do |img|
     div = img.xpath('ancestor::div[1]')
     name, constituency = div.css('.wp-caption-text text()')
-    data = { 
-      name: name.text.tidy.sub('The Honourable ','').sub(', MLA',''),
-      area: constituency.text.tidy.gsub(/[()]/,'').sub(' Constituency',''),
-      image: img.attr('src'),
-      term: 2013,
+    data = {
+      name:   name.text.tidy.sub('The Honourable ', '').sub(', MLA', ''),
+      area:   constituency.text.tidy.gsub(/[()]/, '').sub(' Constituency', ''),
+      image:  img.attr('src'),
+      term:   2013,
       source: div.css('a/@href').text,
     }
-    ScraperWiki.save_sqlite([:name, :term], data)
+    ScraperWiki.save_sqlite(%i(name term), data)
   end
 end
 
