@@ -1,0 +1,49 @@
+---
+request:
+  method: get
+  uri: https://www.falklands.gov.fk/self-governance/legislative/assembly-members/
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 05 Jul 2017 19:38:43 GMT
+    Server:
+    - Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
+    X-Powered-By:
+    - PHP/5.4.33
+    Expires:
+    - Thu, 19 Nov 1981 08:52:00 GMT
+    Cache-Control:
+    - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Pragma:
+    - no-cache
+    Link:
+    - "<https://www.falklands.gov.fk/?p=2339>; rel=shortlink"
+    Set-Cookie:
+    - PHPSESSID=79eb61900506cc8a63f377081d41904d; path=/
+    Accept-Ranges:
+    - none
+    Vary:
+    - Accept-Encoding
+    X-Ua-Compatible:
+    - IE=Edge,chrome=1
+    Content-Length:
+    - '5879'
+    Content-Type:
+    - text/html; charset=UTF-8
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 05 Jul 2017 19:38:44 GMT
