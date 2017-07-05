@@ -26,7 +26,7 @@ def scrape_list(url)
       term:   2013,
       source: div.css('a/@href').text,
     }
-    ScraperWiki.save_sqlite(%i(name term), data)
+    ScraperWiki.save_sqlite(%i[name term], data)
   end
 end
 
