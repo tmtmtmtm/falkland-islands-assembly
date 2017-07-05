@@ -32,4 +32,4 @@ def scrape_list(url)
 end
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
-scrape_list('http://www.falklands.gov.fk/self-governance/legislative/assembly-members/')
+scrape_list('https://www.falklands.gov.fk/self-governance/legislative/assembly-members/')
