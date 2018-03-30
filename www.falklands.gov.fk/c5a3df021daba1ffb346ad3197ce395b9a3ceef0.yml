@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 29 Mar 2018 19:47:41 GMT
+    - Fri, 30 Mar 2018 20:51:15 GMT
     Server:
     - Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
     X-Powered-By:
@@ -32,7 +32,7 @@ response:
     Link:
     - "<https://www.falklands.gov.fk/?p=2339>; rel=shortlink"
     Set-Cookie:
-    - PHPSESSID=6fb3f96412d287b8be5128321a5b12ac; path=/
+    - PHPSESSID=bac9f8c5b9924ef81815e494adfd61ca; path=/
     Accept-Ranges:
     - none
     Vary:
@@ -46,4 +46,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 29 Mar 2018 19:47:42 GMT
+recorded_at: Fri, 30 Mar 2018 20:51:16 GMT
