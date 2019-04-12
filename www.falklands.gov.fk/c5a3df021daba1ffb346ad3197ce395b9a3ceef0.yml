@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 11 Apr 2019 15:27:09 GMT
+    - Fri, 12 Apr 2019 12:54:50 GMT
     Server:
     - Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4
     X-Powered-By:
@@ -33,7 +33,7 @@ response:
     - <https://www.falklands.gov.fk/wp-json/>; rel="https://api.w.org/", <https://www.falklands.gov.fk/?p=2339>;
       rel=shortlink
     Set-Cookie:
-    - PHPSESSID=287667cf29a46b673da7e2313099f8f1; path=/
+    - PHPSESSID=42ce67f51f2204f8f9f9ce0eed9b3351; path=/
     Accept-Ranges:
     - none
     Vary:
@@ -47,4 +47,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 11 Apr 2019 15:27:10 GMT
+recorded_at: Fri, 12 Apr 2019 12:54:51 GMT
